@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.soundTitles {
+  margin-top: 40px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 215px 215px 215px;
+  grid-gap: 30px;
+}
+
+.soundItem {
+  height: 234px;
+  border: solid#FF6700 5px;
+  padding: 13px;
+  cursor: pointer;
+}
+
+.soundItemPicture {
+  width: 179px;
+  height: 172px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.soundItemText {
+  display: grid;
+  grid-template-columns: auto 6px 6px;
+  height: 30px;
+  color: #ffffff;
+}
+
+.soundItemText span:first-child {
+  background-color: #000000;
+  padding: 5px;
+}
+
+.soundItemText span:nth-child(2) {
+  background-color: #828282;
+}
+
+.soundItemText span:last-child {
+  background-color: #3D3D3D;
+}

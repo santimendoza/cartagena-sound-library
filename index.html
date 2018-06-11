@@ -4,18 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>Cartagena audio library</title>
 </head>
 
 <body>
-  <div id="soundTitles">
-    <div data-ref="callese">Senora callese</div>
-    <div data-ref="ay-dios-mio-esto-que-es">Ay dios mio esto que es</div>
-    <div data-ref="cristo-mete-tu-mano">Cristo mete tu mano</div>
-    <div data-ref="puro-pelao-marica">Puro pelao marica</div>
-    <div data-ref="fuerararara">Fuerararara</div>
-    <div data-ref="jopo-que-pea">Jopo-que-pea</div>
-    <div data-ref="el-bochorno">El Bochorno</div>
+  <div class="logoContainer">
+    <img src="images/logo.png" alt="" class="logo" />
+  </div>
+  <div id="soundTitles" class="soundTitles">
+    <div class="soundItem" data-ref="callese">
+      <div class="soundItemPicture" style="background-image: url(images/uso.jpeg)">
+        <img src="images/sound-icon.png" alt="sound icon" />
+      </div>
+      <div class="soundItemText">
+        <span>Senora Callese</span>
+        <span>&nbsp</span>
+        <span>&nbsp</span>
+      </div>
+    </div>
+    <div class="soundItem" data-ref="ay-dios-mio-esto-que-es">
+      <div class="soundItemPicture" style="background-image: url(images/fosforro.jpeg)">
+        <img src="images/sound-icon.png" alt="sound icon" />
+      </div>
+      <div class="soundItemText">
+        <span>Ay dios mio esto que es</span>
+        <span>&nbsp</span>
+        <span>&nbsp</span>
+      </div>
+    </div>
+    <div class="soundItem" data-ref="puro-pelao-marica">
+      <div class="soundItemPicture" style="background-image: url(images/pibe.jpeg)">
+        <img src="images/sound-icon.png" alt="sound icon" />
+      </div>
+      <div class="soundItemText">
+        <span>Puro pelao marica</span>
+        <span>&nbsp</span>
+        <span>&nbsp</span>
+      </div>
+    </div>
+    <div class="soundItem" data-ref="cristo-mete-tu-mano">
+      <div class="soundItemPicture" style="background-image: url(images/fosforro.jpeg)">
+        <img src="images/sound-icon.png" alt="sound icon" />
+      </div>
+      <div class="soundItemText">
+        <span>Cristo mete tu mano</span>
+        <span>&nbsp</span>
+        <span>&nbsp</span>
+      </div>
+    </div>
+    <div class="soundItem" data-ref="fuerararara">
+      <div class="soundItemPicture" style="background-image: url(images/chiki.jpeg)">
+        <img src="images/sound-icon.png" alt="sound icon" />
+      </div>
+      <div class="soundItemText">
+        <span>Fuerararara</span>
+        <span>&nbsp</span>
+        <span>&nbsp</span>
+      </div>
+    </div>
+    <div class="soundItem" data-ref="jopo-que-pea">
+      <div class="soundItemPicture" style="background-image: url(images/lucho.jpeg)">
+        <img src="images/sound-icon.png" alt="sound icon" />
+      </div>
+      <div class="soundItemText">
+        <span>Jopo-que-pea</span>
+        <span>&nbsp</span>
+        <span>&nbsp</span>
+      </div>
+    </div>
+    <div class="soundItem" data-ref="el-bochorno">
+      <div class="soundItemPicture" style="background-image: url(images/fosforro.jpeg)">
+        <img src="images/sound-icon.png" alt="sound icon" />
+      </div>
+      <div class="soundItemText">
+        <span>El Bochorno</span>
+        <span>&nbsp</span>
+        <span>&nbsp</span>
+      </div>
+    </div>
   </div>
 
   <audio data-ref="callese" src="media/callese.mp3" type="audio/mp3"></audio>
