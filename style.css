@@ -26,10 +26,17 @@ html, body {
 }
 
 .soundItemPicture {
+  position: relative;
   width: 179px;
-  height: 172px;
+  height: 87%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.soundItemPicture img {
+  position: absolute;
+  left: 37%;
+  top: 39%;
 }
 
 .soundItemText {
