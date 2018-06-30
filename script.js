@@ -39,10 +39,7 @@
     document.querySelector('#soundTitles').innerHTML = mappedItems.join('');
   }
 
-  const init = () => {
-
-    renderItems();
-
+  const createEvent = () => {
     const soundTitles = document.querySelectorAll("#soundTitles div");
     soundTitles.forEach(sound => {
       const dataRef = sound.getAttribute("data-ref");
@@ -56,6 +53,11 @@
         audio.play();
       })
     })
+  }
+
+  const init = () => {
+    renderItems();
+    createEvent();
   }
 
   init();

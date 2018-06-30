@@ -4,17 +4,16 @@ html, body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logoContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
 }
 
 .soundTitles {
   margin-top: 40px;
   display: grid;
-  justify-content: center;
-  grid-template-columns: 215px 215px 215px;
+  grid-template-columns: repeat(3, 215px);
   grid-gap: 30px;
 }
 
