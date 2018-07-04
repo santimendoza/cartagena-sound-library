@@ -40,5 +40,11 @@
     "code": "el-bochorno",
     "file": "el-bochorno.mp3",
     "thumbnail": "fosforro.jpeg"
+  },
+  {
+    "text": "Mariposo",
+    "code": "mariposo",
+    "file": "mariposo.mp3",
+    "thumbnail": "mariposo.jpg"
   }
 ]
