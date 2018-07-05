@@ -52,5 +52,11 @@
     "code": "patricia",
     "file": "patricia.mp3",
     "thumbnail": "patricia.jpg"
+  },
+  {
+    "text": "Se partio la galleta",
+    "code": "se-partio-la-galleta",
+    "file": "se-partio-la-galleta.mp3",
+    "thumbnail": "charlie.jpg"
   }
 ]
