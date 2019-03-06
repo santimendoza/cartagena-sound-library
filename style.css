@@ -24,6 +24,10 @@ html, body {
   cursor: pointer;
 }
 
+.oneElement {
+  grid-column: 2;
+}
+
 .soundItemPicture {
   position: relative;
   width: 179px;
@@ -56,4 +60,10 @@ html, body {
 
 .soundItemText span:last-child {
   background-color: #3D3D3D;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
 }

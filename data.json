@@ -46,5 +46,11 @@
     "code": "se-partio-la-galleta",
     "file": "se-partio-la-galleta.mp3",
     "thumbnail": "charlie.jpg"
+  },
+  {
+    "text": "Ya basta, erda",
+    "code": "ya-basta-erda",
+    "file": "yabasta.mp3",
+    "thumbnail": "null.png"
   }
 ]
