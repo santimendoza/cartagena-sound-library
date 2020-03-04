@@ -58,5 +58,11 @@
     "code": "cachon-watch-out",
     "file": "navi_watch_out.mp3",
     "thumbnail": "diana_thanos.jpg"
+  },
+  {
+    "text": "Tremenda",
+    "code": "tremenda",
+    "file": "Tremenda.mp3",
+    "thumbnail": "diana_thanos.jpg"
   }
 ]
