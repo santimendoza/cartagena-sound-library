@@ -65,4 +65,10 @@
     "file": "Tremenda.mp3",
     "thumbnail": "diana_thanos.jpg"
   }
+  {
+    "text": "Lizard",
+    "code": "lizard",
+    "file": "kevin-garzon-lizard.mp3",
+    "thumbnail": "kevin-lizard.png"
+  }
 ]
